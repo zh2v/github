@@ -1,6 +1,6 @@
 zh2v
 zh2v01@qq.com
-zh2v@git
+psw:zh2v@git
 
 $ git add readme.txt
 $ git add file1.txt
