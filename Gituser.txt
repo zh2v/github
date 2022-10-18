@@ -1,2 +1,11 @@
 zh2v
 zh2v01@qq.com
+
+$ git add readme.txt
+$ git add file1.txt
+$ git add file2.txt file3.txt
+$ git commit -m "add 3 files."
+$ git log
+$ git reset --hard HEAD^
+$ git reset --hard 1094a
+$ git reflog
