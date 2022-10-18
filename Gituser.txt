@@ -1,5 +1,6 @@
 zh2v
 zh2v01@qq.com
+zh2v@git
 
 $ git add readme.txt
 $ git add file1.txt
@@ -11,3 +12,9 @@ $ git reset --hard 1094a
 $ git reflog
 $ git checkout -- readme.txt 把readme.txt文件在工作区的修改全部撤销
 $ cat readme.txt 看看readme.txt的文件内容：
+$ git rm test.txt
+$ git checkout -- test.txt 无论工作区是修改还是删除，都可以“一键还原”
+
+git remote add origin git@server-name:path/repo-name.git
+git push -u origin master第一次推送master分支的所有内容
+git push origin master推送最新修改；
