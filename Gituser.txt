@@ -1,6 +1,8 @@
 zh2v
 zh2v01@qq.com
 psw:zh2v@git
+git@github.com:zh2v/github.git
+https://github.com/zh2v/github.git
 
 $ git add readme.txt
 $ git add file1.txt
@@ -10,11 +12,11 @@ $ git log
 $ git reset --hard HEAD^
 $ git reset --hard 1094a
 $ git reflog
-$ git checkout -- readme.txt °Ñreadme.txtÎÄ¼şÔÚ¹¤×÷ÇøµÄĞŞ¸ÄÈ«²¿³·Ïú
-$ cat readme.txt ¿´¿´readme.txtµÄÎÄ¼şÄÚÈİ£º
+$ git checkout -- readme.txt æŠŠreadme.txtæ–‡ä»¶åœ¨å·¥ä½œåŒºçš„ä¿®æ”¹å…¨éƒ¨æ’¤é”€
+$ cat readme.txt çœ‹çœ‹readme.txtçš„æ–‡ä»¶å†…å®¹ï¼š
 $ git rm test.txt
-$ git checkout -- test.txt ÎŞÂÛ¹¤×÷ÇøÊÇĞŞ¸Ä»¹ÊÇÉ¾³ı£¬¶¼¿ÉÒÔ¡°Ò»¼ü»¹Ô­¡±
+$ git checkout -- test.txt æ— è®ºå·¥ä½œåŒºæ˜¯ä¿®æ”¹è¿˜æ˜¯åˆ é™¤ï¼Œéƒ½å¯ä»¥â€œä¸€é”®è¿˜åŸâ€
 
 git remote add origin git@server-name:path/repo-name.git
-git push -u origin masterµÚÒ»´ÎÍÆËÍmaster·ÖÖ§µÄËùÓĞÄÚÈİ
-git push origin masterÍÆËÍ×îĞÂĞŞ¸Ä£»
+git push -u origin masterç¬¬ä¸€æ¬¡æ¨é€masteråˆ†æ”¯çš„æ‰€æœ‰å†…å®¹
+git push origin masteræ¨é€æœ€æ–°ä¿®æ”¹ï¼›
